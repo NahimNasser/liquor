@@ -1,0 +1,6 @@
+*.log
+*.pot
+*.pyc
+*.DS_Store
+dist
+liquor.egg-info
