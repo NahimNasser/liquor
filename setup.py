@@ -16,6 +16,7 @@ setup(
     version = "0.1",
     author = "Nahim Nasser",
     author_email = "nnasser@gmail.com",
+    url = 'http://git.io/NM2urA',
     classifiers = [
         'Environment :: Web Environment',
         'Framework :: Django',
@@ -30,7 +31,7 @@ setup(
     ],
     description = 'A simple Django app to download LCBO Product Data.',
     packages=[
-        'liquor', 
+        'liquor',
         'liquor.management',
         'liquor.management.commands',
     ],
