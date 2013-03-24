@@ -13,19 +13,20 @@ http://git.io/NM2urA
 
 Quick start
 -----------
+1. `pip install liquor`
 
-1. Add "liquor" to your INSTALLED_APPS setting like this::
+2. Add "liquor" to your INSTALLED_APPS setting like this::
 
       INSTALLED_APPS = (
           ...
           'liquor',
       )
 
-2. Run `python manage.py syncdb` to create the LcboProduct models.
+3. Run `python manage.py syncdb` to create the LcboProduct models.
 
-3. Run `python manage.py steal_booze` to get data from the LCBO API, and store it in your models.
+4. Run `python manage.py steal_booze` to get data from the LCBO API, and store it in your models.
 
-4. Run `python manage.py analyze_booze` to get some insights.
+5. Run `python manage.py analyze_booze` to get some insights.
 
 Accessing the data
 -----------------
